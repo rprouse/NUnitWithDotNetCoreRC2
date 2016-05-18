@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NUnitWithDotNetCoreRC2.Test")]
+[assembly: AssemblyProduct("NUnitWithDotNetCoreRC2.Runner")]
 [assembly: AssemblyTrademark("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -16,4 +16,4 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c5a6ff56-71d8-4ae7-b27c-5faea16880ff")]
+[assembly: Guid("ea724a2a-0ee2-469a-b938-c22b32069697")]
