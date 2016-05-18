@@ -14,7 +14,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NUnitWithDotNetCoreRC2", "s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AA816949-67C4-4873-B086-BD880386FBE0}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NUnitWithDotNetCoreRC2.Test", "NUnitWithDotNetCoreRC2.Test\NUnitWithDotNetCoreRC2.Test.xproj", "{EA724A2A-0EE2-469A-B938-C22B32069697}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NUnitWithDotNetCoreRC2.Test", "test\NUnitWithDotNetCoreRC2.Test\NUnitWithDotNetCoreRC2.Test.xproj", "{EA724A2A-0EE2-469A-B938-C22B32069697}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
