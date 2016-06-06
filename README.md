@@ -35,7 +35,7 @@ Your `project.json` in your test project should look like the following;
         "NUnitWithDotNetCoreRC2": "1.0.0-*",
         "NETStandard.Library": "1.5.0-rc2-24027",
         "NUnit": "3.2.1",
-        "dotnet-test-nunit": "3.3.0.39-CI"
+        "dotnet-test-nunit": "3.3.0.60-CI"
     },
     "testRunner": "nunit",
 
