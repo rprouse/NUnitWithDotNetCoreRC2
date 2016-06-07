@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using System;
 
 namespace NUnitWithDotNetCoreRC2.Test
 {
@@ -35,6 +36,51 @@ namespace NUnitWithDotNetCoreRC2.Test
         public void CanDivide(int x, int y, int expected)
         {
             Assert.That(Calculator.Divide(x, y), Is.EqualTo(expected));
+        }
+
+        //[Test]
+        //public void FailedTest()
+        //{
+        //    Assert.That(1 + 1, Is.EqualTo(3));
+        //}
+
+        //[Test]
+        //public void ErrorTest()
+        //{
+        //    throw new ArgumentException();
+        //}
+
+        [Test]
+        [Category("One")]
+        public void TestWithConsoleOutput()
+        {
+            Console.WriteLine("Console output");
+        }
+
+        [Test]
+        [Category("Two")]
+        public void TestWithTestContextOutput()
+        {
+            TestContext.WriteLine("Test context output");
+        }
+
+        [Test]
+        [Category("One")]
+        [Category("Two")]
+        public void MultipleCategoryTest()
+        {
+        }
+
+        [Test]
+        [Ignore("Ignored Test")]
+        public void IgnoredTest()
+        {
+        }
+
+        [Test]
+        [Explicit("Explicit Test")]
+        public void ExplicitTest()
+        {
         }
     }
 }
