@@ -5,7 +5,7 @@
         "NUnitWithDotNetCoreRC2": "1.0.0-*",
         "NETStandard.Library": "1.5.0-rc2-24027",
         "NUnit": "3.2.1",
-        "dotnet-test-nunit": "3.3.0.69-CI"
+        "dotnet-test-nunit": "3.4.0-alpha-1"
     },
     "testRunner": "nunit",
 
