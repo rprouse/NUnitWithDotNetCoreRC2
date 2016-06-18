@@ -17,7 +17,7 @@ Your `project.json` in your test project should look like the following;
     "dependencies": {
         "NUnitWithDotNetCoreRC2": "1.0.0-*",
         "NUnit": "3.2.1",
-        "dotnet-test-nunit": "3.4.0-alpha-1"
+        "dotnet-test-nunit": "3.4.0-alpha-2"
     },
     "testRunner": "nunit",
 
@@ -59,7 +59,7 @@ dotnet test
 dotnet test .\test\NUnitWithDotNetCoreRC2.Test\
 ```
 
-### Warning
+### Notes
 
 Note that the `dotnet` command line swallows blank lines and does not work with color.
 The NUnit test runner's output is in color, but you won't see it. These are known issues with
