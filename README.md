@@ -11,11 +11,14 @@ Your `project.json` in your test project should look like the following;
 
 ### project.json
 
-```json{
+```json
+{
     "version": "1.0.0-*",
 
     "dependencies": {
-        "NUnitWithDotNetCoreRC2": "1.0.0-*",
+        "NUnitWithDotNetCoreRC2": {
+            "target": "project"
+        },
         "NUnit": "3.2.1",
         "dotnet-test-nunit": "3.4.0-alpha-2"
     },
