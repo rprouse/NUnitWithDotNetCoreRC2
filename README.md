@@ -13,21 +13,20 @@ Your `project.json` in your test project should look like the following;
 
 ```json
 {
-    "version": "1.0.0-*",
+    "version": "1.1.0-*",
 
     "dependencies": {
         "NUnitWithDotNetCoreRC2": {
             "target": "project"
         },
-        "NUnit": "3.2.1",
-        "dotnet-test-nunit": "3.4.0-alpha-2"
+        "NUnit": "3.4.0",
+        "dotnet-test-nunit": "3.4.0-beta-1"
     },
     "testRunner": "nunit",
 
     "frameworks": {
         "netcoreapp1.0": {
             "imports": [
-                "dnxcore50",
                 "netcoreapp1.0",
                 "portable-net45+win8"
             ],
@@ -40,6 +39,7 @@ Your `project.json` in your test project should look like the following;
         }
     }
 }
+
 ```
 
 The lines of interest here are the dependency on `dotnet-test-nunit`. Feel free to use the newest
@@ -51,7 +51,7 @@ imports for both the test adapter and NUnit to resolve.
 You can now run your tests using the Visual Studio Test Explorer, or by running `dotnet test` from the command
 line.
 
-```
+```sh
 # Restore the NuGet packages
 dotnet restore
 
@@ -59,7 +59,7 @@ dotnet restore
 dotnet test
 
 # Run the unit tests in a different directory
-dotnet test .\test\NUnitWithDotNetCoreRC2.Test\
+dotnet test test\NUnitWithDotNetCoreRC2.Test
 ```
 
 ### Notes
